@@ -8,8 +8,7 @@ import { GeneralModule } from './components/general/general.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
+import { environment } from '../environments/environment'; 
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -24,11 +23,9 @@ export function HttpLoaderFactory(http: HttpClient){
     /* ArchiveComponent */
   ],
   imports: [
-    BrowserAnimationsModule,
-
+    BrowserAnimationsModule, 
     HomeModule,
-    GeneralModule,
-
+    GeneralModule, 
     AnimateOnScrollModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
