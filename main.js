@@ -70,14 +70,14 @@ class AppComponent {
         this.titleService = titleService;
         this.metaService = metaService;
         this.languageService = languageService;
-        this.title = 'andresjosehr-portfolio';
+        this.title = 'karthikc-portfolio';
     }
     ngOnInit() {
         this.languageService.initLanguage();
-        this.titleService.setTitle("José Andrés | Frontend Developer");
+        this.titleService.setTitle("Karthik Cherukupalli | Frontend Developer");
         this.metaService.addTags([
             { name: 'keywords', content: 'Frontend, software, developer' },
-            { name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.' },
+            { name: 'description', content: 'A front-end developer designs and implements user interfaces for websites and web applications, focusing on creating engaging and responsive experiences.' },
         ]);
         aos__WEBPACK_IMPORTED_MODULE_0__.init();
     }
@@ -454,7 +454,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_analytics_analytics_service__WEBPACK_IMPORTED_MODULE_0__.AnalyticsService)); };
-FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 19, vars: 1, consts: [[1, "footer-left-bar", "d-none", "d-md-block"], ["href", "https://github.com/karthik110879", "target", "_blank"], [1, "fab", "fa-github"], ["href", "https://www.linkedin.com/in/karthik-clvss-00a54831/", "target", "_blank"], [1, "fab", "fa-linkedin-in"], [1, "footer-right-bar", "d-none", "d-md-block"], ["href", "mailto:karthik.clvss@gmail.com", "target", "_blank"], [1, "footer-credits", "text-center"], ["href", "https://github.com/andresjosehr/andresjosehr-portfolio", "target", "_blank", "rel", "nofollow noopener noreferrer"], ["href", "https://github.com/bchiang7/v4", "target", "_blank", "rel", "nofollow noopener noreferrer"], [1, "mt-2"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 19, vars: 1, consts: [[1, "footer-left-bar", "d-none", "d-md-block"], ["href", "https://github.com/karthik110879", "target", "_blank"], [1, "fab", "fa-github"], ["href", "https://www.linkedin.com/in/karthik-clvss-00a54831/", "target", "_blank"], [1, "fab", "fa-linkedin-in"], [1, "footer-right-bar", "d-none", "d-md-block"], ["href", "mailto:karthik.clvss@gmail.com", "target", "_blank"], [1, "footer-credits", "text-center"], ["href", "https://github.com/karthik110879/", "target", "_blank", "rel", "nofollow noopener noreferrer"], ["href", "https://github.com/bchiang7/v4", "target", "_blank", "rel", "nofollow noopener noreferrer"], [1, "mt-2"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "footer")(1, "div")(2, "ul", 0)(3, "li")(4, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "i", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
