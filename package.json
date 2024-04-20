@@ -8,7 +8,8 @@
     "build-portfolio": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href  https://karthik110879.github.io/r5/ && angular-cli-ghpages --branch  gh-pages"
   },
   "private": true,
   "dependencies": {
