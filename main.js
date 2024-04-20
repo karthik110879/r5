@@ -674,7 +674,7 @@ class HeaderComponent {
                 Item3: "Projects",
                 Item4: "Contact",
                 cvBtn: "Resume",
-                cvName: "CV_Jose_Hernandez_Ingles.pdf",
+                cvName: "Resume_Karthik_Cherukupalli.pdf",
             }
         };
         this.headerOptions = this.resumeService.resume.Header;
@@ -693,7 +693,7 @@ class HeaderComponent {
     downloadCV() {
         this.languageService.translateService.get("Header.cvName").subscribe(val => {
             this.cvName = val;
-            console.log(val);
+            console.log('cvName', val);
             // app url
             let url = window.location.href;
             // Open a new window with the CV
