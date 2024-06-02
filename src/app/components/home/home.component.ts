@@ -26,47 +26,59 @@ export class HomeComponent implements OnInit {
     this.resumeService.resume = { ...this.resumeService.resume,
       Banner: { 
         Pretitle : 'Hello! My name is',
-        Description : 'Dedicated front-end developer based in India, specializing in Angular. With a keen eye for detail and a passion for clean, efficient code, I strive to create dynamic and responsive web applications that elevate user experiences. Experienced in translating design concepts into seamless, interactive features.',
+        Description : 'A passionate web developer with extensive experience in designing and developing SaaS applications. With a solid foundation in a wide range of web technologies, I specialize in creating scalable, efficient, and visually appealing solutions that meet client needs.',
         ActionBtn : 'Get in touch',
       },
       AboutMe: {
         Title: 'About me',
-        Paragraphs: ['With 4 years as a developer,',`I've honed skills in unit testing, continuous integration, and backend roles using Laravel and MySQL.`]
+        Paragraphs: [`Currently, I serve as a Lead Software Engineer at <span class='underline' style='cursor: pointer;'><a class='underline' href='https://prakya.com/' target='_blank'>Prakya Inc.</a></span>,where I specialize in developing and maintaining user interfaces using various versions of Angular.`,
+        `My role involves collaborating with backend developers to ensure seamless data flow and functionality, engaging with clients to translate requirements into desired functionalities, and implementing robust UI/UX strategies.`,
+          `Earlier in my career, I was a 3D Animator at <span class='underline'><a class='underline' href='https://www.realpage.com/' target='_blank'>RealPage India Pvt. Ltd.</a></span> , where I developed interactive web interfaces and integrated 3D animations to enhance user engagement. My work involved using tools like Pano2Vr, Blender and 3Ds Max to create dynamic visual elements for web projects and virtual tours.`,
+          `Some of the technologies that I have trained and worked on include (but are not limited to):`
+        ]
       },
       Experience: {
         Title: 'Experience',
         Jobs: [
           {
-            Title: 'Fullstack developer',
-            Date: "December 2019 - Present",
+            Title: 'Lead Software Engineer',
+            Date: "December 2021 - Present",
             Tab: "Prakya",
             Description: [
-              "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-              "Functional programming in templates and plugins to add the necessary monitoring features.",
-              "Implementation of continuous integration and daily backups.",
-              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-              "Planning meetings in reports."
+              "Developed and maintained user interfaces using various versions of Angular (8, 9, 13, 15), ensuring high performance and responsiveness.",
+              "Designed and implemented applications using Ionic 4/5, delivering cross-platform solutions for client transportation businesses.",
+              "Utilized PrimeNG library to enhance UI components, improving the overall user experience and functionality of the applications.",
+              "Collaborated with backend developers to integrate APIs, ensuring seamless data flow and robust functionality across the platform.",
+              "Followed Agile methodologies, including running sprints, sprint planning, and utilizing Kanban boards for task management, improving team efficiency and project delivery.",
+              "Built end-to-end solutions using Ionic, from initial requirement gathering to deployment, ensuring the delivery of comprehensive and effective applications.",
+              "Contributed to the development of Prakya, a platform similar to Jira, focusing on Agile project management features, enhancing team collaboration and productivity.",
+              "Designed and implemented UI/UX strategies, ensuring a user-centric approach to interface design and user experience.",
+              "Acted as a maintainer for version control tools GitHub and GitLab, managing and reviewing the codebase, and ensuring builds are ready for deployment.",
             ]
           },
           {
-            Title: 'Independent',
-            Date: "May 2016 - Present",
+            Title: 'Blackbody Technologies(Frontend Developer)',
+            Date: "June 2020 - Jan 2021",
             Tab: "Freelancer",
             Description: [
-              "Implementing continuous improvements, working on frontend and backend.",
-              "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-              "Automation of processes with data structures.",
-              "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+              "Assisted in developing and maintaining user interfaces using Angular, gaining hands-on experience with different versions.",
+              "Collaborated with backend developers to integrate APIs, learning to ensure smooth data flow and functionality.",
+              "Participated in designing the user experience interface (UI/UX) strategy, converting findings into UI designs.",
+              "DDesigned layouts with SASS, Bootstrap, Materialize, and Bulma, gaining proficiency in modern web design frameworks."
             ]
           },
           {
-            Title: 'Frontend developer',
+            Title: '3D Animator',
             Date: "February 2016 - May 2017",
             Tab: "RealPage",
             Description: [
-              "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS",
-              "integration of design improvements, and template loading times.",
-              "Effective communication with the design team, working with Avocode / Figma."
+              "Developed interactive web interfaces using HTML5, CSS, and JavaScript to enhance user engagement.",
+              "Collaborated with developers to create visually appealing and user-friendly web applications.",
+              "Integrated 3D animations into websites, enriching the user experience with dynamic visual elements.",
+              "Utilized tools like Blender and Unity to create and implement 3D animations and graphics for web projects.",
+              "Engaged in code reviews and team meetings, receiving constructive feedback and improving coding practices.",
+              "Effective communication with the design team, working with Adobe Photoshop / Figma.",
+              "Created virtual tours of interiors using Pano2VR, allowing clients to explore spaces through AWS S3 hosted links."
             ]
           },
         ]
