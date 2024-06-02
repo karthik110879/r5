@@ -5,7 +5,7 @@
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "Resime_karthik_Cherukupalli.pdf",
+    "Header.cvName": "Resume_Karthik_Cherukupalli.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
     "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and sometimes in <span class='underline'>Laravel</span> applying good practices and development standards.",
@@ -13,8 +13,8 @@
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
-        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "Currently, I serve as a Lead Software Engineer at <span class='underline'>Prakya Inc.,</span>,where I specialize in developing and maintaining user interfaces using various versions of Angular. My role involves collaborating with backend developers to ensure seamless data flow and functionality, engaging with clients to translate requirements into desired functionalities, and implementing robust UI/UX strategies.",
+        "Earlier in my career, I was a 3D Animator at <span class='underline'>RealPage India Pvt. Ltd.</span> , where I developed interactive web interfaces and integrated 3D animations to enhance user engagement. My work involved using tools like Blender and Unity to create dynamic visual elements for web projects and virtual tours.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
 

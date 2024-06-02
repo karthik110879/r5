@@ -895,7 +895,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], inputs: { resumeData: "resumeData" }, decls: 40, vars: 2, consts: [["id", "about", 1, "section", "about"], [1, "container"], [1, "section-box"], ["data-aos", "fade-up", 1, "about-title"], [1, "section-title"], [1, "n-section-title"], [1, "row"], [1, "col-12", "col-md-6", "mb-4", "mb-md-0"], [1, "about-description"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML", 4, "ngFor", "ngForOf"], ["data-aos", "fade-up", 1, "skills-list"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "skill-element"], [1, "underline"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "col-12", "col-md-6", "mt-4", "mt-md-0", "text-center"], [1, "about-img-container"], ["width", "300", "height", "300", "src", "assets/images/me.jpg", "alt", "karthik c", 1, "rounded"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], inputs: { resumeData: "resumeData" }, decls: 55, vars: 2, consts: [["id", "about", 1, "section", "about"], [1, "container"], [1, "section-box"], ["data-aos", "fade-up", 1, "about-title"], [1, "section-title"], [1, "n-section-title"], [1, "row"], [1, "col-12", "col-md-6", "mb-4", "mb-md-0"], [1, "about-description"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML", 4, "ngFor", "ngForOf"], ["data-aos", "fade-up", 1, "skills-list"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "skill-element"], [1, "underline"], ["data-aos", "fade-up", "data-aos-duration", "1000", 1, "col-12", "col-md-6", "mt-4", "mt-md-0", "text-center"], [1, "about-img-container"], ["width", "300", "height", "300", "src", "assets/images/me.jpg", "alt", "karthik c", 1, "rounded"], ["data-aos", "fade-up", "data-aos-duration", "1000", 3, "innerHTML"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h3", 4)(5, "span", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "01.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -907,34 +907,49 @@ AboutComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__[
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Angular ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li", 11)(17, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "RxJS ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "HTML & (S)CSS ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 11)(20, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "HTML & (S)CSS ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Node.js ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 11)(23, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Laravel ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Express ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 11)(26, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Express ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Nest.js ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 11)(29, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "WordPress ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Ionic 4/5 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 11)(32, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Jasmine / Karma (TDD) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Git(CI/CD) ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 11)(35, "span", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "CI / CD ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Angular Material ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li", 11)(38, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Postman ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li", 11)(41, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "MongoDB ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li", 11)(44, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Bootstrap ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li", 11)(47, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Photoshop ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li", 11)(50, "span", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Figma ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 13)(38, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 13)(53, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "img", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.resumeData.AboutMe.Title, " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", "AboutMe.Paragraphs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.resumeData.AboutMe.Paragraphs);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgForOf], styles: ["@charset \"UTF-8\";\n\n.about[_ngcontent-%COMP%]   .about-description[_ngcontent-%COMP%] {\n  margin-top: 30px;\n  max-width: 480px;\n}\n.about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%] {\n  width: 324px;\n  margin: auto;\n}\n.about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]:after {\n  content: \"\";\n  border: 2px solid #bcff64;\n  z-index: 0;\n  display: block;\n  position: relative;\n  width: 300px;\n  height: 300px;\n  border-radius: 3px;\n  bottom: 290px;\n  left: 23px;\n}\n.about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  z-index: 2;\n  position: relative;\n}\n.about[_ngcontent-%COMP%]   .skills-list[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(140px, 200px));\n  overflow: hidden;\n  padding: 0;\n  margin: 20px 0 0 0;\n  list-style: none;\n}\n.about[_ngcontent-%COMP%]   .skill-element[_ngcontent-%COMP%] {\n  position: relative;\n  margin-bottom: 10px;\n  padding-left: 20px;\n  font-size: 13px;\n  font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;\n  color: #8892b0;\n}\n.about[_ngcontent-%COMP%]   .skill-element[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  padding-bottom: 5px;\n}\n.about[_ngcontent-%COMP%]   .skill-element[_ngcontent-%COMP%]:before {\n  content: \"\u25B9\";\n  position: absolute;\n  left: 0;\n  color: #bcff64;\n  font-size: 14px;\n  line-height: 12px;\n}\n@media (min-width: 992px) and (max-width: 1300px) {\n  .about-img-container[_ngcontent-%COMP%] {\n    margin-left: auto;\n    margin-right: 0;\n  }\n}\n@media (max-width: 500px) {\n  .about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 200px;\n    height: 200px;\n  }\n  .about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]:after {\n    width: 200px;\n    height: 200px;\n    bottom: 190px;\n    left: 74px;\n  }\n}\n@media (max-width: 500px) {\n  .about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%] {\n    width: 100%;\n  }\n  .about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n    width: 180px;\n    height: 180px;\n  }\n  .about[_ngcontent-%COMP%]   .about-img-container[_ngcontent-%COMP%]:after {\n    display: none;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5zY3NzIiwiLi5cXC4uXFwuLlxcLi5cXHZhcmlhYmxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQjtBQ0FoQiw4RUFBQTtBRElJO0VBQ0ksZ0JBQUE7RUFDQSxnQkFBQTtBQURSO0FBSUk7RUFDSSxZQUFBO0VBQ0EsWUFBQTtBQUZSO0FBSVE7RUFDSSxXQUFBO0VBQ0EseUJBQUE7RUFDQSxVQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGFBQUE7RUFDQSxVQUFBO0FBRlo7QUFNUTtFQUNJLFVBQUE7RUFDQSxrQkFBQTtBQUpaO0FBUUk7RUFDSSxhQUFBO0VBQ0Esc0RBQUE7RUFDQSxnQkFBQTtFQUNBLFVBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0FBTlI7QUFTSTtFQUNJLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSwwRkN4Qkc7RUR5QkgsY0MzQ1E7QURvQ2hCO0FBUVE7RUFDRSxtQkFBQTtBQU5WO0FBU1E7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxPQUFBO0VBQ0EsY0NoREk7RURpREosZUFBQTtFQUNBLGlCQUFBO0FBUFo7QUFhQTtFQUNJO0lBQ0ksaUJBQUE7SUFDQSxlQUFBO0VBVk47QUFDRjtBQWFBO0VBRVE7SUFDSSxZQUFBO0lBQ0EsYUFBQTtFQVpWO0VBY007SUFDSSxZQUFBO0lBQ0EsYUFBQTtJQUNBLGFBQUE7SUFDQSxVQUFBO0VBWlY7QUFDRjtBQWdCQTtFQUdRO0lBQ0ksV0FBQTtFQWhCVjtFQWtCVTtJQUNJLFlBQUE7SUFDQSxhQUFBO0VBaEJkO0VBbUJVO0lBQ0ksYUFBQTtFQWpCZDtBQUNGIiwiZmlsZSI6ImFib3V0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCBcIi4vLi4vLi4vLi4vLi4vdmFyaWFibGVzLnNjc3NcIjtcblxuLmFib3V0e1xuXG4gICAgLmFib3V0LWRlc2NyaXB0aW9ue1xuICAgICAgICBtYXJnaW4tdG9wOiAzMHB4O1xuICAgICAgICBtYXgtd2lkdGg6IDQ4MHB4O1xuICAgIH1cblxuICAgIC5hYm91dC1pbWctY29udGFpbmVye1xuICAgICAgICB3aWR0aDogMzI0cHg7XG4gICAgICAgIG1hcmdpbjogYXV0bztcblxuICAgICAgICAmOmFmdGVye1xuICAgICAgICAgICAgY29udGVudDogJyc7XG4gICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAkR3JlZW47XG4gICAgICAgICAgICB6LWluZGV4OiAwO1xuICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICB3aWR0aDogMzAwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDMwMHB4O1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogM3B4O1xuICAgICAgICAgICAgYm90dG9tOiAyOTBweDtcbiAgICAgICAgICAgIGxlZnQ6IDIzcHg7XG5cbiAgICAgICAgfVxuXG4gICAgICAgIGltZ3tcbiAgICAgICAgICAgIHotaW5kZXg6IDI7XG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgIH1cbiAgICB9XG5cbiAgICAuc2tpbGxzLWxpc3R7XG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDIsbWlubWF4KDE0MHB4LDIwMHB4KSk7XG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIG1hcmdpbjogMjBweCAwIDAgMDtcbiAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICB9XG5cbiAgICAuc2tpbGwtZWxlbWVudHtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDIwcHg7XG4gICAgICAgIGZvbnQtc2l6ZTogMTNweDtcbiAgICAgICAgZm9udC1mYW1pbHk6ICRDb2RlRm9udDtcbiAgICAgICAgY29sb3I6ICRTbGF0ZTtcbiAgICAgICAgc3BhbntcbiAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogNXB4O1xuICAgICAgICB9XG5cbiAgICAgICAgJjpiZWZvcmUge1xuICAgICAgICAgICAgY29udGVudDogJ+KWuSc7XG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgICAgY29sb3I6ICRHcmVlbjtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxMnB4O1xuICAgICAgICB9XG4gICAgfVxuXG59XG5cbkBtZWRpYSAobWluLXdpZHRoOiA5OTJweCkgYW5kIChtYXgtd2lkdGg6IDEzMDBweCl7XG4gICAgLmFib3V0LWltZy1jb250YWluZXJ7XG4gICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgICAgICBtYXJnaW4tcmlnaHQ6IDA7XG4gICAgfVxufVxuXG5AbWVkaWEgKG1heC13aWR0aDogNTAwcHgpe1xuICAgIC5hYm91dHtcbiAgICAgICAgLmFib3V0LWltZy1jb250YWluZXIgaW1ne1xuICAgICAgICAgICAgd2lkdGg6IDIwMHB4O1xuICAgICAgICAgICAgaGVpZ2h0OiAyMDBweDtcbiAgICAgICAgfVxuICAgICAgICAuYWJvdXQtaW1nLWNvbnRhaW5lcjphZnRlciB7XG4gICAgICAgICAgICB3aWR0aDogMjAwcHg7XG4gICAgICAgICAgICBoZWlnaHQ6IDIwMHB4O1xuICAgICAgICAgICAgYm90dG9tOiAxOTBweDtcbiAgICAgICAgICAgIGxlZnQ6IDc0cHg7XG4gICAgICAgIH1cbiAgICB9XG59XG5cbkBtZWRpYSAobWF4LXdpZHRoOiA1MDBweCl7XG4gICAgLmFib3V0e1xuXG4gICAgICAgIC5hYm91dC1pbWctY29udGFpbmVyIHtcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuXG4gICAgICAgICAgICBpbWd7XG4gICAgICAgICAgICAgICAgd2lkdGg6IDE4MHB4O1xuICAgICAgICAgICAgICAgIGhlaWdodDogMTgwcHg7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICY6YWZ0ZXIge1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9XG59XG5cbiIsIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cclxuXHJcbiROYXZ5ICAgICAgICAgOiAjMjEwYjM2O1xyXG4kTGlnaHROYXZ5ICAgIDogIzExMjI0MDtcclxuJExpZ2h0ZXN0TmF2eSA6ICMzMDNDNTU7XHJcbiRTbGF0ZSAgICAgICAgOiAjODg5MmIwO1xyXG4kTGlnaHRTbGF0ZSAgIDogI2E4YjJkMTtcclxuJExpZ2h0ZXN0U2xhdGU6ICNjY2Q2ZjY7XHJcbiRXaGl0ZSAgICAgICAgOiAjZTZmMWZmO1xyXG4kR3JlZW4gICAgICAgIDogI2JjZmY2NDtcclxuJEdyZWVuT3BhY2l0eSA6IHJnYmEoMTAwLDI1NSwyMTgsMC4wNyk7XHJcblxyXG4vLyAkTmF2eSAgICAgICAgIDogIzM2NmE5NTsgICAgICAgLy8gQSBjb29sZXIsIGRhcmtlciBuYXZ5XHJcbi8vICRMaWdodE5hdnkgICAgOiAjNkQ4ODk0OyAgICAgICAvLyBBIGxpZ2h0ZXIgc2hhZGUgb2YgbmF2eVxyXG4vLyAkTGlnaHRlc3ROYXZ5IDogI0E3QkFDODsgICAgICAgLy8gQW4gZXZlbiBsaWdodGVyIHNoYWRlIG9mIG5hdnlcclxuLy8gJFNsYXRlICAgICAgICA6ICNCOEM3RDQ7ICAgICAgIC8vIEEgbXV0ZWQgc2xhdGUgY29sb3JcclxuLy8gJExpZ2h0U2xhdGUgICA6ICNENkUxRTk7ICAgICAgIC8vIEEgbGlnaHRlciBzaGFkZSBvZiBzbGF0ZVxyXG4vLyAkTGlnaHRlc3RTbGF0ZTogI0VBRjFGNTsgICAgICAgLy8gQW4gZXZlbiBsaWdodGVyIHNoYWRlIG9mIHNsYXRlXHJcbi8vICRXaGl0ZSAgICAgICAgOiAjRkZGRkZGOyAgICAgICAvLyBQdXJlIHdoaXRlIGZvciBjb250cmFzdFxyXG4vLyAkR3JlZW4gICAgICAgIDogIzkyYWNjZDsgICAgICAgLy8gQSBjb29sLCBzdWJ0bGUgZ3JlZW5cclxuLy8gJEdyZWVuT3BhY2l0eSA6IHJnYmEoMTA3LDE5MCwxNDcsMC4wNyk7IC8vIEFkanVzdGVkIG9wYWNpdHkgZm9yIHRoZSBncmVlblxyXG5cclxuJE1haW5Gb250OiBDYWxpYnJlLFNhbiBGcmFuY2lzY28sU0YgUHJvIFRleHQsLWFwcGxlLXN5c3RlbSxzeXN0ZW0tdWksQmxpbmtNYWNTeXN0ZW1Gb250LFJvYm90byxIZWx2ZXRpY2EgTmV1ZSxTZWdvZSBVSSxBcmlhbCxzYW5zLXNlcmlmO1xyXG4kQ29kZUZvbnQ6IFNGIE1vbm8sIEZpcmEgQ29kZSwgRmlyYSBNb25vLCBSb2JvdG8gTW9ubywgTHVjaWRhIENvbnNvbGUsIE1vbmFjbywgTW9ub3NwYWNlO1xyXG4iXX0= */"] });
 
 
@@ -1072,6 +1087,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about/about.component */ 2491);
 /* harmony import */ var _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./jobs/jobs.component */ 185);
 /* harmony import */ var _proyects_proyects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./proyects/proyects.component */ 8513);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6362);
 /* harmony import */ var _more_proyects_more_proyects_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./more-proyects/more-proyects.component */ 2531);
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact/contact.component */ 1605);
 
@@ -1082,6 +1098,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+function HomeComponent_app_more_proyects_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "app-more-proyects");
+} }
 class HomeComponent {
     constructor(resumeService) {
         this.resumeService = resumeService;
@@ -1093,45 +1113,57 @@ class HomeComponent {
     initResume() {
         this.resumeService.resume = Object.assign(Object.assign({}, this.resumeService.resume), { Banner: {
                 Pretitle: 'Hello! My name is',
-                Description: 'Dedicated front-end developer based in India, specializing in Angular. With a keen eye for detail and a passion for clean, efficient code, I strive to create dynamic and responsive web applications that elevate user experiences. Experienced in translating design concepts into seamless, interactive features.',
+                Description: 'A passionate web developer with extensive experience in designing and developing SaaS applications. With a solid foundation in a wide range of web technologies, I specialize in creating scalable, efficient, and visually appealing solutions that meet client needs.',
                 ActionBtn: 'Get in touch',
             }, AboutMe: {
                 Title: 'About me',
-                Paragraphs: ['With 4 years as a developer,', `I've honed skills in unit testing, continuous integration, and backend roles using Laravel and MySQL.`]
+                Paragraphs: [`Currently, I serve as a Lead Software Engineer at <span class='underline' style='cursor: pointer;'><a class='underline' href='https://prakya.com/' target='_blank'>Prakya Inc.</a></span>,where I specialize in developing and maintaining user interfaces using various versions of Angular.`,
+                    `My role involves collaborating with backend developers to ensure seamless data flow and functionality, engaging with clients to translate requirements into desired functionalities, and implementing robust UI/UX strategies.`,
+                    `Earlier in my career, I was a 3D Animator at <span class='underline'><a class='underline' href='https://www.realpage.com/' target='_blank'>RealPage India Pvt. Ltd.</a></span> , where I developed interactive web interfaces and integrated 3D animations to enhance user engagement. My work involved using tools like Pano2Vr, Blender and 3Ds Max to create dynamic visual elements for web projects and virtual tours.`,
+                    `Some of the technologies that I have trained and worked on include (but are not limited to):`
+                ]
             }, Experience: {
                 Title: 'Experience',
                 Jobs: [
                     {
-                        Title: 'Fullstack developer',
-                        Date: "December 2019 - Present",
+                        Title: 'Lead Software Engineer',
+                        Date: "December 2021 - Present",
                         Tab: "Prakya",
                         Description: [
-                            "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-                            "Functional programming in templates and plugins to add the necessary monitoring features.",
-                            "Implementation of continuous integration and daily backups.",
-                            "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-                            "Planning meetings in reports."
+                            "Developed and maintained user interfaces using various versions of Angular (8, 9, 13, 15), ensuring high performance and responsiveness.",
+                            "Designed and implemented applications using Ionic 4/5, delivering cross-platform solutions for client transportation businesses.",
+                            "Utilized PrimeNG library to enhance UI components, improving the overall user experience and functionality of the applications.",
+                            "Collaborated with backend developers to integrate APIs, ensuring seamless data flow and robust functionality across the platform.",
+                            "Followed Agile methodologies, including running sprints, sprint planning, and utilizing Kanban boards for task management, improving team efficiency and project delivery.",
+                            "Built end-to-end solutions using Ionic, from initial requirement gathering to deployment, ensuring the delivery of comprehensive and effective applications.",
+                            "Contributed to the development of Prakya, a platform similar to Jira, focusing on Agile project management features, enhancing team collaboration and productivity.",
+                            "Designed and implemented UI/UX strategies, ensuring a user-centric approach to interface design and user experience.",
+                            "Acted as a maintainer for version control tools GitHub and GitLab, managing and reviewing the codebase, and ensuring builds are ready for deployment.",
                         ]
                     },
                     {
-                        Title: 'Independent',
-                        Date: "May 2016 - Present",
+                        Title: 'Blackbody Technologies(Frontend Developer)',
+                        Date: "June 2020 - Jan 2021",
                         Tab: "Freelancer",
                         Description: [
-                            "Implementing continuous improvements, working on frontend and backend.",
-                            "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-                            "Automation of processes with data structures.",
-                            "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+                            "Assisted in developing and maintaining user interfaces using Angular, gaining hands-on experience with different versions.",
+                            "Collaborated with backend developers to integrate APIs, learning to ensure smooth data flow and functionality.",
+                            "Participated in designing the user experience interface (UI/UX) strategy, converting findings into UI designs.",
+                            "DDesigned layouts with SASS, Bootstrap, Materialize, and Bulma, gaining proficiency in modern web design frameworks."
                         ]
                     },
                     {
-                        Title: 'Frontend developer',
+                        Title: '3D Animator',
                         Date: "February 2016 - May 2017",
                         Tab: "RealPage",
                         Description: [
-                            "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS",
-                            "integration of design improvements, and template loading times.",
-                            "Effective communication with the design team, working with Avocode / Figma."
+                            "Developed interactive web interfaces using HTML5, CSS, and JavaScript to enhance user engagement.",
+                            "Collaborated with developers to create visually appealing and user-friendly web applications.",
+                            "Integrated 3D animations into websites, enriching the user experience with dynamic visual elements.",
+                            "Utilized tools like Blender and Unity to create and implement 3D animations and graphics for web projects.",
+                            "Engaged in code reviews and team meetings, receiving constructive feedback and improving coding practices.",
+                            "Effective communication with the design team, working with Adobe Photoshop / Figma.",
+                            "Created virtual tours of interiors using Pano2VR, allowing clients to explore spaces through AWS S3 hosted links."
                         ]
                     },
                 ]
@@ -1162,9 +1194,11 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_services_resume_service__WEBPACK_IMPORTED_MODULE_0__.ResumeService)); };
-HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 7, vars: 5, consts: [[3, "resumeData"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 7, vars: 6, consts: [[3, "resumeData"], [4, "ngIf"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "main");
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-banner", 0)(2, "app-about", 0)(3, "app-jobs", 0)(4, "app-proyects", 0)(5, "app-more-proyects")(6, "app-contact", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-banner", 0)(2, "app-about", 0)(3, "app-jobs", 0)(4, "app-proyects", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, HomeComponent_app_more_proyects_5_Template, 1, 0, "app-more-proyects", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](6, "app-contact", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
@@ -1175,9 +1209,11 @@ HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("resumeData", ctx.resume);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("resumeData", ctx.resume);
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", false);
+        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("resumeData", ctx.resume);
-    } }, directives: [_banner_banner_component__WEBPACK_IMPORTED_MODULE_1__.BannerComponent, _about_about_component__WEBPACK_IMPORTED_MODULE_2__.AboutComponent, _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_3__.JobsComponent, _proyects_proyects_component__WEBPACK_IMPORTED_MODULE_4__.ProyectsComponent, _more_proyects_more_proyects_component__WEBPACK_IMPORTED_MODULE_5__.MoreProyectsComponent, _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__.ContactComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5zY3NzIn0= */"] });
+    } }, directives: [_banner_banner_component__WEBPACK_IMPORTED_MODULE_1__.BannerComponent, _about_about_component__WEBPACK_IMPORTED_MODULE_2__.AboutComponent, _jobs_jobs_component__WEBPACK_IMPORTED_MODULE_3__.JobsComponent, _proyects_proyects_component__WEBPACK_IMPORTED_MODULE_4__.ProyectsComponent, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _more_proyects_more_proyects_component__WEBPACK_IMPORTED_MODULE_5__.MoreProyectsComponent, _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__.ContactComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5zY3NzIn0= */"] });
 
 
 /***/ }),
